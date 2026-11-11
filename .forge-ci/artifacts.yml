@@ -8,3 +8,10 @@ artifacts:
     project-type: meta
     working-directory: .
 containers: []
+
+# The release files (checksums) and the release commit and tag are signed
+# with the organisation's GPG key in RELEASE_GPG_PRIVATE_KEY, as before.
+sign:
+  method: gpg
+git-signing:
+  method: gpg
