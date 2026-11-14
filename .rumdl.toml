@@ -14,7 +14,8 @@ exclude = [
     "dist/**",
     "build/**",
     ".mise/**",
-    "dot/.local/bin/empty.txt"
+    "dot/.local/bin/empty.txt",
+    "CHANGELOG.md"
 ]
 
 # MD013 - Line length rule (disabled by setting to very high value)
